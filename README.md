@@ -66,4 +66,9 @@ Sensory and capture zones are digitised as polygon vertex sequences, from which 
 
 ## Licence
 
-Not yet set. Without one the default is all rights reserved, which would undercut the data availability statement — worth adding before this is cited. A common pairing is MIT for the code and CC BY 4.0 for the data.
+- **Code** (`01_processing.R`, `02_analysis.R`) — [MIT](LICENSE)
+- **Data** (`data_imageJ_NB.csv`) — [CC BY 4.0](LICENSE-DATA)
+
+Both permit reuse, including commercially. CC BY requires attribution, so please cite the paper above when using the data.
+
+GitHub reports one licence per repository and will show this as MIT, since that is what `LICENSE` contains; the data terms are in `LICENSE-DATA`.
