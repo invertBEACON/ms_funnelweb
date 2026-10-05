@@ -58,17 +58,8 @@ One row per digitised coordinate, 1967 rows covering 37 webs.
 
 Sensory and capture zones are digitised as polygon vertex sequences, from which area, perimeter, aspect ratio, convexity and circularity are derived. Entrance width is two points, from which a distance is computed.
 
-### Quirks worth knowing
-
-- `data_type` was originally recorded as `entrace_width` in both the data and the code. Both were corrected together before release; the two must stay in step, since a mismatch silently drops all 134 entrance-width records rather than erroring.
-- Two rows have a blank `file_name` and are filtered out during processing.
-- 37 webs are present in the raw file; 35 survive the quality screening described in the paper (n = 13 *A. robustus*, 13 *H. cerberea*, 9 *H. versuta*).
-
 ## Licence
 
 - **Code** (`01_processing.R`, `02_analysis.R`) — [MIT](LICENSE)
 - **Data** (`data_imageJ_NB.csv`) — [CC BY 4.0](LICENSE-DATA)
 
-Both permit reuse, including commercially. CC BY requires attribution, so please cite the paper above when using the data.
-
-GitHub reports one licence per repository and will show this as MIT, since that is what `LICENSE` contains; the data terms are in `LICENSE-DATA`.
